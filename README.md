@@ -6,7 +6,7 @@
 
 - Linux: cd llama.cpp && make
 
-### pip install openai 'llama-cpp-python[server]' pydantic instructor streamlit
+### pip install openai 'llama-cpp-python[server]' pydantic instructor
 
 ### Single Model Chat for CPU
 - python -m --model models/mistral-7b-instruct-v0.1.Q4_0.gguf 
