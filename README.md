@@ -22,7 +22,7 @@ response = client.chat.completions.create(
         stream=True,
     )
 ```
-Replace this with 
+Replace this with model_alias
 ```
 response = client.chat.completions.create(
         model="mistral",
