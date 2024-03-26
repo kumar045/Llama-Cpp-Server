@@ -25,7 +25,7 @@ if prompt:
     st.session_state.messages.append({"role": "user", "content": prompt})
 
     response = client.chat.completions.create(
-        model="llama.cpp/models/mixtral-8x7b-instruct-v0.1.Q2_K.gguf",
+        model="llama.cpp/models/mistral-7b-instruct-v0.1.Q4_0.gguf",
         messages=st.session_state.messages,
         stream=True,
     )
