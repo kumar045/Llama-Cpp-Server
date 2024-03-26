@@ -12,3 +12,6 @@
 - python3 -m llama_cpp.server --model models/mistral-7b-instruct-v0.1.Q4_0.gguf 
 ### Single Model Chat with GPU 
 - python3 -m llama_cpp.server --model models/mistral-7b-instruct-v0.1.Q4_0.gguf  --n_gpu -1
+
+### Run multiple models at the same time using the config.json
+- python3 -m llama_cpp.server --config_file config.json
