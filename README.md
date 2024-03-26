@@ -15,3 +15,18 @@
 
 ### Run multiple models at the same time using the config.json
 - python3 -m llama_cpp.server --config_file config.json
+```
+response = client.chat.completions.create(
+        model="llama.cpp/models/mixtral-8x7b-instruct-v0.1.Q2_K.gguf",
+        messages=st.session_state.messages,
+        stream=True,
+    )
+```
+Replace this with 
+```
+response = client.chat.completions.create(
+        model="mistral",
+        messages=st.session_state.messages,
+        stream=True,
+    )
+```
