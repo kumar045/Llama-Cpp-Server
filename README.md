@@ -8,7 +8,7 @@
 
 ### pip install openai 'llama-cpp-python[server]' pydantic instructor
 
-### Single Model Chat for CPU
+### Single Model Chat with CPU
 - python3 -m llama_cpp.server --model models/mistral-7b-instruct-v0.1.Q4_0.gguf 
 ### Single Model Chat with GPU 
 - python3 -m llama_cpp.server --model models/mistral-7b-instruct-v0.1.Q4_0.gguf  --n_gpu -1
