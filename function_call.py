@@ -3,7 +3,7 @@ import json
 import instructor
 
 # Create a client
-client = OpenAI(api_key="password", base_url="http://localhost:8000/v1")
+client = OpenAI(api_key="any random number or string", base_url="http://localhost:8000/v1")
 # Create a patched client
 client = instructor.patch(client=client)
 
