@@ -13,8 +13,8 @@
         "n_ctx": 2048
       },
       {
-        "model": "models/mistral-7b-instruct-v0.1.Q4_0.gguf",
-        "model_alias": "mistral-function-calling",
+        "model": "models/stable-code-instruct-3b-Q8_0.gguf",
+        "model_alias": "stable-3b-function-calling",
         "chat_format": "functionary",
         "n_gpu_layers": -1,
         "offload_kqv": true,
